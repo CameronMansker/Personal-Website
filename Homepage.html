@@ -1,86 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/a8cbd25639.js" crossorigin="anonymous"></script>
-  <title>Cameron Mansker</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a8cbd25639.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cameron Mansker</title>
+  </head>
 
-<body>
-	
-  <header>
-		<h1 id="first-name">Cameron </h1>
-    <h1 id="last-name">Mansker</h1>
-		<nav>
-			<div id="slideout-menu">
-			<div id="nav-icon">
-						<i class="fa-solid fa-bars"></i>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div id="nav-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div id="slideout-menu">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="banner">
+      <div class="container">
+        <h1>Cameron Mansker</h1>
+        <h3>Front-End Software Engineer</h3>
+        <img src="" alt="" />
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="portfolio-projects">
+            <h2 id="projects">Projects</h2>
+            <ul id="random-messages">
+              <a href="https://github.com/CameronMansker/randomMessages"
+                >Random Messages</a
+              >
+            </ul>
+            <ul>
+              <a href=""></a>
+            </ul>
+            <ul>
+              <a href=""></a>
+            </ul>
+            <ul>
+              <a href=""></a>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="about-me">
+            <h2 id="about">About Me</h2>
+            <p>
+              Hi, my name is Cameron and I am a Front-End Engineer. I first
+              started coding simple HTML in Junior High and from there I
+              progressed and have leared CSS, Javascript, React.js, and PHP. I
+              am always striving to better my skills and tackle new projects. In
+              my free time I enjoy making new memories with my fiance, going to
+              church, and hanging out with friends.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="contact-info">
+          <h3 id="contact">Contact</h3>
+          <p id="phone">
+            Phone
+            <a href="tel:4174148414">(417) 414-8414</a>
+          </p>
+          <p>
+            Email
+            <a href="mailto:Cameronmansker01@gmail.com"
+              >CameronMansker01@gmail.com</a>
+          </p>
+					      </div>
+          <div class="socials">
+						<ul>
+							<li>
+								<a href="https://www.linkedin.com/in/cameron-mansker/">
+							<i class="fa-brands fa-linkedin"></i>
+						</a>
+							</li>
+							<li>
+								<a href="https://github.com/CameronMansker">
+									<i class="fa-brands fa-square-github"></i>
+								</a>
+							</li>
+						</ul>
+						
 					</div>
-			<ul>
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">Projects</a>
-				</li>
-				<li>
-					<a href="#">About</a>
-				</li>
-				<li>
-					<div id="search-icon">
-						<i class="fas fa-search"></i>
-					</div>
-				</li>
-			</ul>
-			</div>
-		</nav>
-
-		
-  </header>
-
-	<div id="searchbox">
-			<input type="text" placeholder="Search">
-		</div>
-
-	<div id="banner">
-		<h1>Cameron</h1>
-		<h3></h3>
-	</div>
-    
-	<Main>
-	
-
-	<div class="projects">
-  	<h2>Projects</h2>
-    	<ul id="random-messages"><a href="https://github.com/CameronMansker/randomMessages">Random Messages</a></ul>
-    	<ul><a href=""></a></ul>
-    	<ul><a href=""></a></ul>
-    	<ul><a href=""></a></ul>
-	</div>
-
- 	<div class="about-me">
-		<h2>About Me</h2>
-  		<p>Hi, my name is Cameron and I am a Front-End Engineer.
-  		I first started coding simple HTML in Junior High and from there I progressed and have leared CSS, Javascript, React.js, and PHP.
-   		I am always striving to better my skills and tackle new projects. 
-   		In my free time I enjoy making new memories with my fiance, going to church, and hanging out with friends.</p>
-	</div>
-	</Main>
-
-	<footer>
-  	<h3 id="footer-header">
-  	Contact Me: 
-  	</h3>
-  	<ul class="contact-info">
-    	<li id="email"><a href="mailto:Cameronmansker01@gmail.com">Email</a></li>
-    	<li id="phone"><a href="tel:4174148414">Phone</a></li>
-   	</ul>
-	</footer>
-</body>
+							<div class="copywrite">
+						<p>© 2023 Cameron Mansker</p>
+							</div>
+          </p>
+  
+      </div>
+    </footer>
+  </body>
 </html>
+
