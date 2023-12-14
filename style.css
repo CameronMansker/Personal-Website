@@ -1,74 +1,161 @@
+/* hex color codes
+dark blue #25344e;
+lighter dark blue #38568a;
+dark gray #303641;
+black #000000
+
+
+#1d1e1f
+*/
+
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  
+}
+
 h1 {
-  display: inline-block;
-  font-family: "lato";
-}
-
-#first-name {
-  color: black;
-}
-
-#last-name {
-  font-weight: 300;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 0;
+  font-size: 72px;
+  font-family: "Poppins", "sans-serif";
+  color: white;
+  
+  
 }
 
 h2 {
-  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
 }
 
 h3 {
-  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
+
 }
 
-nav {
-  display: inline-block;
+ul {
+  color: white;
 }
 
-footer {
-  border-top: solid 1px;
-  background: rgba(150, 150, 150, 0.5);
-  width: 100%;
-  height: 80px;
-  padding-top: 10px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: inline-block;
+li {
+  
+}
+
+a {
+
 }
 
 p {
-  display: inline-block;
-  margin: 30px;
+  line-height: 1.5;
+  color: white;
 }
 
-.projects {
-  color: black;
+nav {
+  height: 90px;
+  background-color: #1d1e1f;
+}
+
+.nav-icon {
+}
+
+.slidout-menu {
+}
+
+.container {
+}
+
+section {
+
+}
+
+main {
+
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1d1e1f;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.banner h3 {
+  border-radius: px;
+  font-size: 26px;
+  padding: 0 24px;
+}
+
+.portfolio-projects {
+}
+
+#projects {
+}
+
+#random-messages-project {
+}
+
+.about-me {
+}
+
+#about {
+}
+
+footer {
+  width: 100%;
+  background-color: black;
 }
 
 .contact-info {
   display: inline-block;
 }
 
+#contact {
+}
+
+.phone-container {
+}
+
 #phone {
-  display: inline-flex;
-  margin-left: 20px;
-  margin-right: 50px;
+}
+
+#number {
+}
+
+.email-container {
 }
 
 #email {
-  display: inline-flex;
-  margin-right: 10px;
 }
 
-#footer-header {
-  display: inline-block;
+#email-address {
+}
+
+.socials {
+}
+
+.linkedin {
+}
+
+.github {
+}
+
+.facebook {
+}
+
+.copywrite {
+  padding-bottom: 0%;
 }
 
 .back-to-top {
@@ -87,7 +174,7 @@ p {
   text-decoration: none;
   opacity: 0;
   pointer-events: 0;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .back-to-top.active {

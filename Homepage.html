@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -25,7 +27,7 @@
           <div id="nav-icon">
             <i class="fa-solid fa-bars"></i>
           </div>
-          <div id="slideout-menu">
+          <div class="slideout-menu">
             <ul>
               <li>
                 <a href="#home">Home</a>
@@ -45,8 +47,10 @@
       </nav>
     </header>
 
-    <div id="banner">
-      <div class="container">
+    
+		
+			<div class="container"></div>
+      <div class="banner">
         <h1>Cameron Mansker</h1>
         <h3>Front-End Software Engineer</h3>
         <img src="" alt="" />
@@ -58,19 +62,21 @@
         <div class="container">
           <div class="portfolio-projects">
             <h2 id="projects">Projects</h2>
-            <ul id="random-messages">
-              <a href="https://github.com/CameronMansker/randomMessages"
-                >Random Messages</a
-              >
-            </ul>
-            <ul>
-              <a href=""></a>
-            </ul>
-            <ul>
-              <a href=""></a>
-            </ul>
-            <ul>
-              <a href=""></a>
+            <ul id="project-list">
+              <li id="random-messages-project">
+                <a href="https://github.com/CameronMansker/randomMessages"
+                  >Random Messages</a
+                >
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -97,25 +103,29 @@
       <div class="container">
         <div class="contact-info">
           <h3 id="contact">Contact</h3>
-          <p id="phone">
-            Phone
-            <a id="number" href="tel:4174148414">(417) 414-8414</a>
-          </p>
-          <p id="email">
-            Email
-            <a id="email-address" href="mailto:Cameronmansker01@gmail.com"
-              >CameronMansker01@gmail.com</a
-            >
-          </p>
+          <div class="phone-container">
+            <p id="phone">
+              Phone
+              <a id="number" href="tel:4174148414">(417) 414-8414</a>
+            </p>
+          </div>
+          <div class="email-container">
+            <p id="email">
+              Email
+              <a id="email-address" href="mailto:Cameronmansker01@gmail.com"
+                >CameronMansker01@gmail.com</a
+              >
+            </p>
+          </div>
         </div>
         <div class="socials">
           <ul>
-            <li>
+            <li class="linkedin">
               <a href="https://www.linkedin.com/in/cameron-mansker/">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
-            <li>
+            <li class="github">
               <a href="https://github.com/CameronMansker">
                 <i class="fa-brands fa-square-github"></i>
               </a>
@@ -126,10 +136,10 @@
           <p>© 2023 Cameron Mansker</p>
         </div>
       </div>
-			<a href="#" class="back-to-top">
-					<i class="fa-solid fa-chevron-up" style="color: #000000;"></i>
-				</a>
+      <a href="#" class="back-to-top">
+        <i class="fa-solid fa-chevron-up" style="color: #000000"></i>
+      </a>
     </footer>
-		<script src="backtotop.js"></script>
+    <script src="backtotop.js"></script>
   </body>
 </html>
