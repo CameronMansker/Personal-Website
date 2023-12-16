@@ -12,17 +12,17 @@ black #000000
   font-family: "Poppins", sans-serif;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1e1f;
 }
 
-body {
-  
-}
+
 
 h1 {
-  padding: 8px;
-  border-radius: 8px;
+  padding: 0px;
   margin: 0;
   font-size: 72px;
   font-family: "Poppins", "sans-serif";
@@ -57,9 +57,46 @@ p {
   color: white;
 }
 
+#lines {
+  
+}
+
 nav {
-  height: 90px;
+  height: 72px;
   background-color: #1d1e1f;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px 0 0;
+  box-sizing: border-box;
+  z-index: 100;
+  backdrop-filter: blur(2px);
+  
+}
+
+nav a {
+  padding: 0 32px;
+  color: white;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin: 0;
 }
 
 .nav-icon {
@@ -92,10 +129,24 @@ main {
 }
 
 .banner h3 {
-  border-radius: px;
   font-size: 26px;
-  padding: 0 24px;
+  margin: 0px;
 }
+
+.banner img {
+  width: 390px;
+  height: 455px;
+  position: relative;
+  z-index: 2;
+}
+
+#background-img {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  height: 600px;
+}
+
 
 .portfolio-projects {
 }
@@ -114,7 +165,6 @@ main {
 
 footer {
   width: 100%;
-  background-color: black;
 }
 
 .contact-info {
@@ -155,7 +205,6 @@ footer {
 }
 
 .copywrite {
-  padding-bottom: 0%;
 }
 
 .back-to-top {

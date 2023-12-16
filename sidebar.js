@@ -1,0 +1,7 @@
+function sidebarOpen {
+
+}
+
+function sidebarClose {
+  
+}
