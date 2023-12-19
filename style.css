@@ -1,65 +1,34 @@
-/* hex color codes
-dark blue #25344e;
-lighter dark blue #38568a;
-dark gray #303641;
-black #000000
-
-
+/*
 #1d1e1f
 */
 
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
   scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
   background-color: #1d1e1f;
 }
 
 
-
-h1 {
-  padding: 0px;
-  margin: 0;
-  font-size: 72px;
-  font-family: "Poppins", "sans-serif";
-  color: white;
-  
-  
-}
-
 h2 {
-  color: white;
+  
 }
 
 h3 {
-  color: white;
-
-}
-
-ul {
-  color: white;
-}
-
-li {
-  
-}
-
-a {
-
+  font-weight: 300;
 }
 
 p {
   line-height: 1.5;
   color: white;
+  font-weight: 300;
 }
 
-#lines {
-  
-}
+/* NavBar                                 DONE */
 
 nav {
   height: 72px;
@@ -74,12 +43,12 @@ nav {
   padding: 0 16px 0 0;
   box-sizing: border-box;
   z-index: 100;
-  backdrop-filter: blur(2px);
-  
+  align-items: center;
+
 }
 
 nav a {
-  padding: 0 32px;
+  padding: 0 80px;
   color: white;
   transition: 0.4s;
   text-decoration: none;
@@ -97,71 +66,100 @@ nav ul {
   align-items: center;
   height: 100%;
   margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
-.nav-icon {
+#menu-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+  padding: 0 4px;
+  color: lightblue;
+  display: none;
+  align-items: center;
+  margin: 0%;
+  width: 0%;
 }
 
 .slidout-menu {
+  display: none;
 }
 
-.container {
-}
+/* Banner                 DONE */
 
-section {
-
-}
-
-main {
-
+#dummy-code {
+  position: absolute;
+  height: auto;
+  width: 720px;
+  opacity: 50%;
+  left: 550px;
+  top: 250px;
 }
 
 .banner {
-  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #1d1e1f;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: overlay;
-}
-
-.banner h3 {
-  font-size: 26px;
-  margin: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  width: 100%;
+  
 }
 
 .banner img {
-  width: 390px;
-  height: 455px;
-  position: relative;
+  padding-left: 40px;
+  width: auto;
+  height: 500px;
+}
+
+.banner-text {
+  display: block;
+  text-align: center;
+  position: static;
   z-index: 2;
 }
 
-#background-img {
-  position: absolute;
-  z-index: 1;
-  width: auto;
-  height: 600px;
+h1 {
+  font-family: "Poppins", "sans-serif";
+  font-size: 5vw;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  color: white;
+  padding-top: 80px;
 }
 
+.banner h2 {
+  font-family: "Poppins", "sans-serif";
+  color: white;
+  font-size: 1.65rem;
+}
+
+/* Portfolio projects */
 
 .portfolio-projects {
+  display: grid;
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  padding-top: 40px;
 }
 
-#projects {
+.portfolio-projects h2 {
+  margin-left: 50px;
 }
 
-#random-messages-project {
+.portfolio-projects p {
+  color: black;
+  width: 30%;
+  line-height: 2;
+  margin-top: 20px;
+  margin-left: 50px
 }
 
-.about-me {
-}
-
-#about {
-}
+/* Footer & Contact */
 
 footer {
   width: 100%;
@@ -171,41 +169,7 @@ footer {
   display: inline-block;
 }
 
-#contact {
-}
-
-.phone-container {
-}
-
-#phone {
-}
-
-#number {
-}
-
-.email-container {
-}
-
-#email {
-}
-
-#email-address {
-}
-
-.socials {
-}
-
-.linkedin {
-}
-
-.github {
-}
-
-.facebook {
-}
-
-.copywrite {
-}
+/* Back to top button                DONE */
 
 .back-to-top {
   background-color: white;
