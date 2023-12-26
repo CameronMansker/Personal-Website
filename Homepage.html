@@ -21,29 +21,28 @@
   </head>
 
   <body>
+
+
     <header>
-      <nav>
-        <div id="menu-icon">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="slideout-menu">
-          <ul>
-            <li>
-              <a href="#banner">Home</a>
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#banner" class="nav-link">Home</a>
             </li>
-            <li>
-              <a href="#container-box">Projects</a>
+            <li class="nav-item">
+              <a href="#container-box" class="nav-link">Projects</a>
             </li>
-            <li>
-              <a href="#about-me">About</a>
-            </li>
-            <li>
-              <a href="#footer">Contact</a>
+            <li class="nav-item">
+              <a href="#particle-container" class="nav-link">About</a>
             </li>
           </ul>
-        </div>
-      </nav>
-    </header>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
 
     <div class="container">
       <div class="banner">
@@ -62,7 +61,7 @@
     </div>
 
     <main>
-      <div class="container-box">
+      <div class="container-box" id="container-box">
         <h3>Projects</h3>
         <div class="project-container">
           <div class="slide">
@@ -171,57 +170,126 @@
         </div>
       </div>
 
-      <section class="about-me">
-        <div class="about-me-container">
-          <div class="title">
-            <h3>About Me</h3>
-          </div>
-          <div class="card-container">
-            <div class="card">
-              <div class="contact">
-                <p>Contact</p>
-                <i class="fa-solid fa-angles-up"></i>
+      <div class="about-me-container">
+        <div id="particle-container">
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="border"></div>
+          <div class="border"></div>
+        </div>
+        <svg>
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+              <feColorMatrix
+                in="name"
+                mode="matrix"
+                values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 30 -15"
+              />
+              <feBlend in="SourceGraphic" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="title">
+          <h3>About Me</h3>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="contact">
+              <p>Contact</p>
+              <i class="fa-solid fa-angles-up"></i>
+            </div>
+            <div class="imbBx">
+              <img src="/img/aboutMe.JPG" alt="" />
+            </div>
+            <div class="content">
+              <div class="contentBx">
+                <h4>Cameron Mansker</h4>
               </div>
-              <div class="imbBx">
-                <img src="/img/aboutMe.JPG" alt="" />
-              </div>
-              <div class="content">
-                <div class="contentBx">
-                  <h4>Cameron Mansker</h4>
-                </div>
-                <ul class="sci">
-                  <li style="--i: 1">
-                    <a href="#"><i class="fa-brands fa-square-github"></i></a>
-                  </li>
-                  <li style="--i: 2">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                  </li>
-                  <li style="--i: 3">
-                    <a href="#"><i class="fa-solid fa-square-phone"></i></a>
-                  </li>
-                  <li style="--i: 4">
-                    <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
-                  </li>
-                </ul>
-              </div>
+              <ul class="sci">
+                <li style="--i: 1">
+                  <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                </li>
+                <li style="--i: 2">
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i: 3">
+                  <a href="#"><i class="fa-solid fa-square-phone"></i></a>
+                </li>
+                <li style="--i: 4">
+                  <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
-          <p>
-            Hi, my name is Cameron and I am a Front-End Engineer. I first
-            started coding simple HTML in Junior High and from there I
-            progressed and have leared CSS, Javascript, React.js, and PHP. I am
-            always striving to better my skills and tackle new projects. In my
-            free time I enjoy making new memories with my fiance, going to
-            church, and hanging out with friends.
-          </p>
         </div>
-      </section>
+        <p>
+          Hi, my name is Cameron and I am a Front-End Engineer. I first started
+          coding simple HTML in Junior High and from there I progressed and have
+          leared CSS, Javascript, React.js, and PHP. I am always striving to
+          better my skills and tackle new projects. In my free time I enjoy
+          making new memories with my fiance, going to church, and hanging out
+          with friends.
+        </p>
+        <div id="horizontal-line"></div>
+        <div id="vertical-line"></div>
+        <div id="vertical-line2"></div>
+        <div class="expertise">
+          <h3>Expertise</h3>
+          <ul>
+            <li>
+              <i class="fa-brands fa-js"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-html5"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-css3-alt"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-react"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-php"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
 
     <footer>
       <div class="container">
+        <div class="bottom-nav">
+          <ul>
+            <li>
+              <a href="#banner">Home</a>
+            </li>
+            <li>
+              <a href="#container-box">Projects</a>
+            </li>
+            <li>
+              <a href="#particle-container">About</a>
+            </li>
+          </ul>
+        </div>
         <div class="copywrite">
-          <p>© 2023 Cameron Mansker</p>
+          <p>© 2023 | Designed by: <i>Cameron Mansker</i></p>
         </div>
       </div>
       <a href="#" class="back-to-top">
@@ -230,53 +298,6 @@
     </footer>
     <script src="backtotop.js"></script>
     <script src="slideshow.js"></script>
+    <script src="sidebar.js"></script>
   </body>
 </html>
-
-<!--<section>
-        <div class="container">
-          <div class="portfolio-projects">
-            <h2>Projects</h2>
-            <p>
-              Here are some of the portfolio projects I have worked on while
-              completing my studies.
-            </p>
-            <ul id="project-list">
-              <li id="random-messages-project">
-                <a href="https://github.com/CameronMansker/randomMessages"
-                  >Random Messages</a
-                >
-              </li>
-              <li id="find-my-hat">
-                <a href="https://github.com/CameronMansker/Find-my-hat"
-                  >Find My Hat</a
-                >
-              </li>
-              <li id="noble-touch">
-                <a href="https://github.com/CameronMansker/Noble-Touch"
-                  >Noble Touch Lawncare</a
-                >
-              </li>
-              <li>
-                <a href=""></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section> -->
-
-<!--<div class="about-me-container">
-        <div class="container">
-          <div class="about-me">
-            <h2 id="about">About Me</h2>
-            <p>
-              Hi, my name is Cameron and I am a Front-End Engineer. I first
-              started coding simple HTML in Junior High and from there I
-              progressed and have leared CSS, Javascript, React.js, and PHP. I
-              am always striving to better my skills and tackle new projects. In
-              my free time I enjoy making new memories with my fiance, going to
-              church, and hanging out with friends.
-            </p>
-          </div>
-        </div>
-      </div>-->
