@@ -631,17 +631,23 @@ h1 {
     font-size: 25.5px;
     width: 187.5px;
     height: auto;
-    
+    position: relative;
+    top: -115px;
+    left: -80px;
   }
 
   .content .des {
     font-size: 10.2px;
     width: 150px;
+    position: relative;
+    top: -120px;
+    left: -80px;
   }
 
   .project-container .slide .item{
      width: 127.5px;
     height: 191.25px;
+    
   }
 
   .slide .item:nth-child(1),
@@ -669,7 +675,14 @@ h1 {
     left: calc(50% + 420.75px);
     opacity: 0;
   }
+
+  .content button {
+    position: relative; 
+    left: -90px;
+  }
 }
+
+
 
 /* About Me                       DONE*/
 
