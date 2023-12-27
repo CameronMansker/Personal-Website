@@ -488,7 +488,7 @@ h1 {
   }
 
   .container-box h3 {
-    font-size: 42.5px;
+    
   }
 
   .project-container {
@@ -557,7 +557,7 @@ h1 {
 
   /* 85% of parent media quary for header*/
   .container-box h3 {
-    font-size: 36.125px;
+    
   }
 
   .project-container {
@@ -614,11 +614,6 @@ h1 {
 @media (max-width: 586.98px) { 
   .container-box {
     min-height: 765px;
-  }
-
-  /* 85% of parent media quary for header*/
-  .container-box h3 {
-    font-size: 30.7px;
   }
 
   .project-container {
@@ -911,9 +906,9 @@ h1 {
 
 .card .contact p {
   position: static;
-  color: black;
   font-weight: 400;
   text-align: center;
+  color: white;
 }
 
 .about-me-container p {
@@ -937,7 +932,7 @@ h1 {
 
 .content .contentBx h4 {
   text-transform: uppercase;
-  color: black;
+  color: white;
   letter-spacing: 2px;
   font-weight: 500;
   font-size: 18px;
@@ -976,8 +971,9 @@ h1 {
 }
 
 .content .sci li a {
-  color: black;
+  color: white;
   font-size: 24px;
+
 }
 
 #horizontal-line {
@@ -1029,6 +1025,140 @@ h1 {
 }
 
 
+@media (max-width: 1164.89px) {
+  .card-container .card {
+    width: 255px;
+    height: 340px;
+  }
+
+  .about-me-container p {
+    left: 450px;
+    top: -500px;
+    width: 425px;
+  }
+
+  #horizontal-line {
+    left: 425px;
+    bottom: 440px;
+    width: 500px;
+  }
+
+  #vertical-line {
+    left: 425px;
+    bottom: 440px;
+  }
+
+  #vertical-line2 {
+    left: 925px;
+    bottom: 890px;
+  }
+
+  .expertise h3 {
+    left: 450px;
+    bottom: 865px;
+  }
+
+  .expertise li {
+    left: 450px;
+    bottom: 815px;
+    padding-right: 65px;
+  }
+}
+
+@media (max-width: 972.89px) {
+  .about-me-container {
+    min-height: 1125px;
+  }
+  
+  .about-me-container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    left: 0;
+  }
+
+  .card-container .card {
+    width: 255px;
+    height: 340px;
+    margin: 0;
+    top: -40px;
+  }
+
+  .card .contact p {
+    position: relative;
+    left: 85%;
+    transform: translateX(-50%);
+    top: 0px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-me-container .card-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+  }
+
+  .about-me-container p {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -120px;
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  #horizontal-line {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    width: 85%;
+  }
+
+  #vertical-line {
+    left: 425px;
+    bottom: 440px;
+    opacity: 0;
+  }
+
+  #vertical-line2 {
+    left: 925px;
+    bottom: 890px;
+    opacity: 0;
+  }
+
+  .expertise h3 {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    text-align: center;
+  }
+
+  .expertise {
+    position: relative;
+    top: -450px;
+  }
+
+  .expertise ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .expertise ul li {
+    position: static;
+    list-style-position: inside;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+}
+
 
 
 /* Footer */
@@ -1048,12 +1178,13 @@ footer {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  padding: 30px 0 0 0;
+  padding: 30px 0 0;
   box-sizing: border-box;
   z-index: 100;
   align-items: center;
   list-style: none;
-
+  flex-wrap: wrap;
+  padding-bottom: 40px;
 }
 
 .bottom-nav a {
@@ -1069,13 +1200,12 @@ footer {
 }
 
 .copywrite p {
-  position: absolute;
-  bottom: 25px;
-  left: 30px;
+  position: relative;
+  bottom: -15px;
+  left: 15px;
   color: white;
-  ;
+  
 }
-
 
 /* Back to top button                DONE */
 
@@ -1102,31 +1232,4 @@ footer {
   bottom: 32px;
   pointer-events: auto;
   opacity: 1;
-}
-
-
-
-/* Media Quaries */
-
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-}
-
-
-
-
-/* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
-
 }
