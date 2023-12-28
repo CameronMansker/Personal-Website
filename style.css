@@ -49,7 +49,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .nav-menu {
@@ -384,7 +384,7 @@ h1 {
 
 .project-container{
     position: absolute;
-    top: 182%;
+    top: 165%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
@@ -555,7 +555,7 @@ h1 {
   .project-container {
     width: 750px;
     height: 450px;
-    top: 170%;
+    top: 160%;
   }
 
   .content .name {
@@ -606,7 +606,7 @@ h1 {
 @media (max-width: 972.98px) {
 
   .project-container {
-    top: 170%;
+    top: 150%;
   }
 }
 
@@ -621,7 +621,7 @@ h1 {
   .project-container {
     width: 562.5px;
     height: 337.5px;
-    top: 155%;
+    top: 145%;
   }
 
   .content .name {
@@ -677,7 +677,7 @@ h1 {
   .project-container {
     height: 421.875px;
     width: 253.125px;
-    top: 160%;
+    top: 150%;
   }
 
   .content .name {
@@ -753,13 +753,6 @@ h1 {
   
   .project-container {
     top: 170%;
-  }
-}
-
-@media (max-width: 375.98px) {
-  
-  .project-container {
-    top: 150%;
   }
 }
 
@@ -1312,7 +1305,7 @@ footer {
   width: 100%;
   height: 150px;
   position: relative;
-  padding-top: 40px;
+  margin-top: 40px;
 }
   
 .bottom-nav ul {
@@ -1353,6 +1346,7 @@ p.copywrite {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
   }
 
 
